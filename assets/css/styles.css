@@ -533,6 +533,29 @@ footer {
   margin-top: 260px;
 }
 
+.tbfee{
+  text-align: justify;  
+  font-size: 18x;
+}
+
+.tbfee th, td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;  
+}
+
+.tbexample {
+  text-align: justify;
+  font-size: 18x;
+}
+
+.tbexample td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -606,6 +629,9 @@ strong{
 }
 .block_right .content {
   margin-left: 20px;
+}
+.block_right .importantday {
+  margin-left: 0px;
 }
 .block_right .region{
   margin-left: 20px;
