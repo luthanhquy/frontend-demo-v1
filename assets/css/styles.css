@@ -571,9 +571,35 @@ footer {
   word-break: break-word;
   
 }
+ 
+.block_left .lead{
+  text-align: justify;
+}
+
+.block_left .tbcontent td, th {
+  vertical-align: top;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.block_left .tbcontent .title {
+  width: 30%;
+  background-color: black;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.block_left h2{
+  word-break: break-word;
+  color: orange;
+}
 
 .block_right {
-  width: 300px;
+  width: 320px;
 }
 
 @media (max-width: 1200px) {
